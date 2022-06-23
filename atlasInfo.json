@@ -1,0 +1,11 @@
+{
+  "from": {
+    "endpoint": "https://data.mongodb-api.com/app/data-wdnqz/endpoint/data/beta",
+    "database": "shopping-heroku",
+    "collections": ["categorys", "order-items", "orders", "products", "users"]
+  },
+  "to": {
+    "endpoint": "https://data.mongodb-api.com/app/data-fjqsi/endpoint/data/v1",
+    "database": "shopping-heroku"
+  }
+}
